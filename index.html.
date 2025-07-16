@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой Telegram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .telegram-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 15px 25px;
+      background-color: #0088cc;
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .telegram-link:hover {
+      background-color: #006699;
+    }
+    .telegram-icon {
+      width: 24px;
+      height: 24px;
+      fill: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Привет!</h1>
+  <p>Нажми ниже, чтобы перейти в мой Telegram:</p>
+  <a class="telegram-link" href="https://t.me/pobeda1winj" target="_blank">
+    <svg class="telegram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+      <circle cx="120" cy="120" r="120" fill="#0088cc"/>
+      <path d="M100.1 161.5l-3.9 41.3c5.6 0 8-2.4 10.9-5.3l26.2-24.8 54.4 39.8c10 5.5 17.1 2.6 19.6-9.2L227.8 60c3.6-15.1-5.4-21.2-15.4-17.5L27.5 108.7c-14.7 5.8-14.5 14.1-2.5 17.9l53.8 16.8L183 76.7c6.5-4.2 12.4-1.9 7.6 2.7L100.1 161.5z" fill="#fff"/>
+    </svg>
+    Мой Telegram
+  </a>
+</body>
+</html>
